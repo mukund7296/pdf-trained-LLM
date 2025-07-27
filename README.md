@@ -34,3 +34,4 @@ To deploy this on GitHub:
 1. Remove any sensitive data
 2. Commit your changes: `git add . && git commit -m "Initial commit"`
 3. Create a GitHub repository and push your code
+# pdf-trained-LLM
