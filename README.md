@@ -17,6 +17,8 @@ This project allows you to train a language model on your own PDF documents.
 2. Choose one of these options:
 
 - Train the model: `python src/main.py --train`
+  <img width="1400" height="298" alt="image" src="https://github.com/user-attachments/assets/d6f19694-7c11-4b60-8e9d-b45d068aa72c" />
+
 - Chat with the model: `python src/main.py --chat`
 - Create document embeddings: `python src/main.py --create-embeddings`
 - Query document embeddings: `python src/main.py --query "your question"`
