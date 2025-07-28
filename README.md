@@ -1,6 +1,8 @@
-# PDF-trained LLM Project
+# PDF-trained LLM Project - We can train multiple pdf 
 
 This project allows you to train a language model on your own PDF documents.
+<img width="308" height="605" alt="image" src="https://github.com/user-attachments/assets/86c25334-92a7-4d71-8f3f-42b25aad7542" />
+
 
 ## Setup
 
@@ -17,21 +19,24 @@ This project allows you to train a language model on your own PDF documents.
 2. Choose one of these options:
 
 - Train the model: `python3 src/main.py --train`
-  **Output**
+
+## Output
   <img width="1421" height="272" alt="image" src="https://github.com/user-attachments/assets/97c26b6a-f7c4-4050-ae80-25c00f4aa534" />
 
 **Training complete!**
 
 - Chat with the model: `python3 src/main.py --chat`
+## Output
+  
   <img width="1418" height="632" alt="image" src="https://github.com/user-attachments/assets/05dcac43-6b96-4a66-a372-07d0aa8f6bda" />
-**You can ask question for exit Model loaded. Start chatting (type 'quit' to exit)**
+
   
 - Create document embeddings: `python3 src/main.py --create-embeddings`
-   **Output**
+ ## Output
   <img width="1428" height="411" alt="image" src="https://github.com/user-attachments/assets/d8924bc8-6fa1-48e5-9267-8e376dc7da0b" />
 
 - Query document embeddings: `python3 src/main.py --query "Write the Characteristics of Pseudocode."`
-  **Output**
+## Output
   <img width="1354" height="493" alt="image" src="https://github.com/user-attachments/assets/2f335b6a-711c-4b0e-bdf5-f9bbd91d4bec" />
 
 
