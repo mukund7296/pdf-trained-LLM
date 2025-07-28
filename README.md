@@ -16,12 +16,24 @@ This project allows you to train a language model on your own PDF documents.
 1. Add your PDFs to the `data/pdfs` directory
 2. Choose one of these options:
 
-- Train the model: `python src/main.py --train`
-  <img width="1400" height="298" alt="image" src="https://github.com/user-attachments/assets/d6f19694-7c11-4b60-8e9d-b45d068aa72c" />
+- Train the model: `python3 src/main.py --train`
+  **Output**
+  <img width="1421" height="272" alt="image" src="https://github.com/user-attachments/assets/97c26b6a-f7c4-4050-ae80-25c00f4aa534" />
 
-- Chat with the model: `python src/main.py --chat`
-- Create document embeddings: `python src/main.py --create-embeddings`
-- Query document embeddings: `python src/main.py --query "your question"`
+**Training complete!**
+
+- Chat with the model: `python3 src/main.py --chat`
+  <img width="1418" height="632" alt="image" src="https://github.com/user-attachments/assets/05dcac43-6b96-4a66-a372-07d0aa8f6bda" />
+**You can ask question for exit Model loaded. Start chatting (type 'quit' to exit)**
+  
+- Create document embeddings: `python3 src/main.py --create-embeddings`
+   **Output**
+  <img width="1428" height="411" alt="image" src="https://github.com/user-attachments/assets/d8924bc8-6fa1-48e5-9267-8e376dc7da0b" />
+
+- Query document embeddings: `python3 src/main.py --query "Write the Characteristics of Pseudocode."`
+  **Output**
+  <img width="1354" height="493" alt="image" src="https://github.com/user-attachments/assets/2f335b6a-711c-4b0e-bdf5-f9bbd91d4bec" />
+
 
 ## Configuration
 
